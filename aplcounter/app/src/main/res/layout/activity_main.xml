@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/main"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#f5f5f5"
+    android:padding="24dp">
+
+    <Button
+        android:id="@+id/buttonIncrease"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tambah"
+        android:layout_marginBottom="40dp"
+        android:textAllCaps="false" />
+
+    <TextView
+        android:id="@+id/textCounter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="80sp"
+        android:textStyle="bold"
+        android:textColor="#444"
+        android:layout_marginBottom="40dp" />
+
+    <Button
+        android:id="@+id/buttonDecrease"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kurang"
+        android:textAllCaps="false" />
+
+</LinearLayout>
