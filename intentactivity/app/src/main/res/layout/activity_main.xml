@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/etNamaBarang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukan Nama Barang"
+        android:backgroundTint="#D32F2F"
+        android:layout_marginBottom="24dp"/>
+
+    <Button
+        android:id="@+id/btnBarang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BARANG"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnPenjualan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PENJUALAN"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnPembelian"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PEMBELIAN"/>
+</LinearLayout>
