@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#FFFFFF">
+
+    <!-- TextView Hasil -->
+    <TextView
+        android:id="@+id/textResult"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="0"
+        android:gravity="center"
+        android:textSize="64sp"
+        android:textColor="#000000"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Input Angka 1 -->
+    <EditText
+        android:id="@+id/inputNumber1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan angka pertama"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Input Angka 2 -->
+    <EditText
+        android:id="@+id/inputNumber2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan angka kedua"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Tombol Penjumlahan -->
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PENJUMLAHAN"
+        android:background="#FFEB3B"
+        android:textSize="18sp"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Tombol Pengurangan -->
+    <Button
+        android:id="@+id/btnSubtract"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PENGURANGAN"
+        android:background="#FFC107"
+        android:textSize="18sp"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Tombol Perkalian -->
+    <Button
+        android:id="@+id/btnMultiply"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PERKALIAN"
+        android:background="#FF9800"
+        android:textSize="18sp"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Tombol Pembagian -->
+    <Button
+        android:id="@+id/btnDivide"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PEMBAGIAN"
+        android:background="#CDDC39"
+        android:textSize="18sp"
+        android:layout_marginBottom="8dp" />
+
+</LinearLayout>
